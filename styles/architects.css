@@ -146,8 +146,42 @@ main{
 .sponspor-companies img{
     filter: grayscale(100%);
 }
-
-
+/* features-section-title */
+.features{
+    gap: 80px;
+}
+.feature-img img{
+    width: 100%;
+    /* height: 50%; */
+}
+#features-section-title{
+    border-left: 5px solid #FF900E;
+    padding: 21px;
+}
+.feature-card {
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06); 
+    margin-bottom: 20px;
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1rem;  
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: -70px;
+    margin-top: -70px;
+}
+#experience-year{
+    font-size: 3rem;
+    font-weight: 700;
+}
 
 
 
@@ -163,7 +197,8 @@ main{
     }
     .team-img-container, 
     .facts-container,
-    .sponspor-companies{
+    .sponspor-companies,
+    .features{
         grid-template-columns: repeat(1, 1fr);
     }
     .facts-container{
@@ -176,6 +211,10 @@ main{
     }
     .our-features{
         margin-left: 10px;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
 /* medium devise responsive media query */
